@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+    font-size: 100%;
+}
+html::-webkit-scrollbar{
+	width: 1.2rem;
+}
+
+html::-webkit-scrollbar-track{
+	background: lightgray;
+}
+html::-webkit-scrollbar-thumb{
+	background: green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Italianno&family=Pacifico&family=Sevillana&display=swap');
+.box1{
+	text-align: center;
+	width: 100%;
+	margin: 1rem;
+}
+.box1 a{
+	padding: 0.5rem 1rem;
+	color: green;
+	text-decoration: none;
+	font-size: 150%;
+	font-family: serif;
+}
+.box1 a:hover{
+	transition: 3s;
+	background: lightgray;
+	border-top: 1px solid green;
+}
+
+.figure{
+	width: 40%;
+	margin: .7rem;
+}
+.figure-caption{
+	font-family: serif;
+	color: black;
+}
+
+@media (max-width: 620px){
+	.figure{
+		width: 100%;
+	}
+}

@@ -1,0 +1,394 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+    font-size: 100%;
+}
+html::-webkit-scrollbar{
+	width: 1.2rem;
+}
+
+html::-webkit-scrollbar-track{
+	background: lightgray;
+}
+html::-webkit-scrollbar-thumb{
+	background: green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Italianno&family=Pacifico&family=Sevillana&display=swap');
+#logo1{
+	width: 4.5rem;
+	height: 5rem;
+}
+#logo2{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+#navbar{
+	position: absolute;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+#navbarDarkDropdownMenuLink{
+    font-family: serif;
+	color: green;
+	font-weight: bold;
+	padding: 1rem 1rem;
+	margin: 0 1.2rem;
+}
+#navbarDarkDropdownMenuLink:hover{
+	transition: 2.2s;
+	border-top: 2px solid green;
+	background: lightgray;
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	color: blue;
+}
+.navbar-brand:hover{
+	color: green;
+}
+.sosial{
+	font-size: 1.3rem;
+	padding: 0 .7rem;
+}
+#carosel{
+	margin-top: 6rem;
+}
+#carouselExampleCaptions{
+	margin: 1rem;
+	background-image: url(MediLife/backround.jpg);
+	width: 75%;
+}
+.carosel_infor1{
+	font-family: serif;
+	position: relative;
+	left: 12rem;
+	bottom: 5rem;
+	width: 15rem;
+	color: black;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: .5rem 0;
+}
+.carosel_infor2{
+	font-family: serif;
+	position: relative;
+	left: 7rem;
+	bottom: 3rem;
+	width: 25rem;
+	color: black;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: .5rem 0;
+}
+.hekim{
+	position: absolute;
+	left: 38rem;
+	bottom: 5rem;
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	border: 3px solid blue;
+}
+.btnler{
+	font-family: serif;
+	position: absolute;
+	left: -6rem;
+	bottom: 2rem;
+	background-color: orange;
+}
+.btnler:hover{
+	transition: 2s;
+    background-color: gray;
+}
+ul li ul{
+	transition: 5s;
+	display: none;
+	background-color: deepskyblue;
+}
+ul li ul li{
+	padding-right: 5px;
+	list-style: none;
+	border-top: 1px solid white;
+}
+ul li ul li a{
+	font-family: serif;
+	font-size: 1.3rem;
+	color: white;
+	text-decoration: none;
+}
+ul li:hover ul{
+	display: block;
+}
+ul li ul: hover li{
+	color: white;
+}
+.ilk{
+	border-top: 0;
+}
+.bash{
+	display: block;
+	width: 60%;
+	height: 15rem;
+	margin-left: 10%;
+}
+.bash1{
+	float: left;
+	margin: 1.2rem;
+}
+#bash2{
+	width: 230px;
+	height: 219px;
+}
+#bash_img{
+	width: 100%;
+	height: 100%;
+}
+.img_btn{
+	text-decoration: none;
+	padding: .5rem 1rem;
+	background-color: orangered;
+	border-radius: .3rem;
+	border: none;
+	color: white;
+	font-family: serif;
+	font-weight: 700;
+}
+.img_btn:hover{
+	transition: 1.5s;
+	color: orangered;
+	background-color: lightgray;
+	box-shadow: 0 0 20px 0 gray;
+}
+.news{
+	background-color: lightgray;
+	display: block;
+	width: 60%;
+	margin-left: 10%;
+}
+.new_s1{
+	display: inline-block;
+	margin: 3rem 1rem;
+	text-align: center;
+}
+.new_s1 p{
+	display: inline-block;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 1.5rem;
+	padding: .5rem 1.4rem;
+}
+.new_s1 p:hover{
+	background-color: gray;
+	border-top: 1px solid blue;
+}
+.new_s2{
+	width: 80%;
+	margin: 1rem;
+	padding: 1rem;
+	position: relative;
+	left: 1rem;
+	bottom: 3rem;
+	border: 1px solid gray;
+}
+.new_s2 p{
+	font-family: serif;
+	font-weight: 600;
+}
+.new_s2 i{
+	margin: 0 1rem;
+}
+.umumi{
+	margin-left: 16%;
+	width: 50%;
+}
+.card{
+	float: left;
+	margin: 1rem;
+}
+.reklam{
+	box-shadow: 0 0 30px 0 gray;
+	position: absolute;
+	position: fixed;
+	width: 12rem;
+	height: 30rem;
+	left: 73rem;
+	top: 7rem;
+	border: 1px solid blue;
+	cursor: pointer;
+}
+#sac{
+	width: 100%;
+	height: 100%;
+}
+.card div a{
+	border: 1px solid blue;
+}
+.modal-body i{
+	margin: 0 1rem;
+	display: inline-block;
+}
+.modal-body p{
+	display: inline-block;
+}
+.modal-body input{
+	margin: .5rem;
+	padding: .5rem;
+}
+.modal-body textarea{
+	margin: .5rem;
+	padding: .5rem;
+}
+
+
+
+
+
+@media (max-width: 1310px){
+	.bash{
+		width: 85%;
+	}
+}
+@media (max-width: 1193px){
+	.reklam{
+		position: relative;
+	    left: 43rem;
+	    top: 16rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.7rem;
+	}
+}
+@media (max-width: 970px){
+	.bash{
+		width: 100%;
+		margin-left: 7%;
+	}
+}
+@media (max-width: 860px){
+	.bash{
+		width: 80%;
+		height: 35rem;
+		margin-left: 15%;
+	}
+	.reklam{
+		position: relative;
+	    left: 33rem;
+	    top: 16rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.7rem;
+	}
+}
+@media (max-width: 670px){
+	.bash{
+		width: 80%;
+		height: 50rem;
+		margin-left: 10%;
+	}
+	.reklam{
+		position: relative;
+	    left: 27rem;
+	    top: -65rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.6rem;
+	}
+}
+@media (max-width: 600px){
+	.bash{
+		width: 80%;
+		height: 50rem;
+		margin-left: 5%;
+	}
+	.news{
+		width: 80%;
+	}
+	.reklam{
+		position: relative;
+	    left: 20rem;
+	    top: -65rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.6rem;
+	}
+}
+@media (max-width: 430px){
+	.bash{
+		width: 80%;
+		height: 50rem;
+		margin-left: 12%;
+	}
+	.umumi{
+		position: relative;
+		top: 33rem;
+	}
+	.reklam{
+		position: relative;
+	    left: 8rem;
+	    top: 2rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.6rem;
+	}
+}
+@media (max-width: 380px){
+	.umumi{
+		position: relative;
+		top: 33rem;
+		margin-left: 10%;
+	}
+	.reklam{
+		position: relative;
+	    left: 7rem;
+	    top: 2rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.6rem;
+	}
+}
+@media (max-width: 355px){
+	.umumi{
+		position: relative;
+		top: 33rem;
+		margin-left: 5%;
+	}
+	.reklam{
+		position: relative;
+	    left: 4.5rem;
+	    top: 2rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.6rem;
+	}
+}
+@media (max-width: 337px){
+	.umumi{
+		position: relative;
+		top: 33rem;
+		margin-left: 1px;
+	}
+	.news{
+		width: 90%;
+	}
+	.reklam{
+		position: relative;
+	    left: 5rem;
+	    top: 2rem;
+	}
+	#sac{
+		position: relative;
+		top: -96.6rem;
+	}
+}
