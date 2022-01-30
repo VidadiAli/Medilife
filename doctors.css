@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+    font-size: 100%;
+}
+html::-webkit-scrollbar{
+	width: 1.2rem;
+}
+
+html::-webkit-scrollbar-track{
+	background: lightgray;
+}
+html::-webkit-scrollbar-thumb{
+	background: green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Italianno&family=Pacifico&family=Sevillana&display=swap');
+.box1{
+	text-align: center;
+	width: 100%;
+	margin: 1rem;
+}
+.box1 a{
+	padding: 0.5rem 1rem;
+	color: green;
+	text-decoration: none;
+	font-size: 150%;
+	font-family: serif;
+}
+.box1 a:hover{
+	transition: 3s;
+	background: lightgray;
+	border-top: 1px solid green;
+}
+.bashliq{
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 150%;
+	text-align: center;
+	font-family: serif;
+}
+.bash{
+	float: left;
+	margin: 1rem;
+}
+#bash1{
+	padding: 1rem;
+	font-family: serif;
+	width: 50%;
+}
+#bashsh{
+	width: 550px;
+	height: 550px;
+}
+#bash2{
+	width: 100%;
+	height: 100%;
+}
+#hekimler1{
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 150%;
+	text-align: center;
+	font-family: serif;
+}
+.qutu1{
+	height: 40rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu2{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+#id2{
+	width: 55%;
+}
+#id1{
+	width: 400px;
+	height: 400px;
+}
+#img1{
+	width: 100%;
+	height: 100%;
+}
+
+.qutu11{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu22{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+.qutu111{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu222{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+.qutu1111{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu2222{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+.qutu11111{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu22222{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+.qutu111111{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu222222{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+.qutu1111111{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu2222222{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+.qutu11111111{
+	height: 30rem;
+	margin: .5rem;
+	padding: 1rem;
+}
+.qutu22222222{
+	float: left;
+	margin: 1rem;
+	font-family: serif;
+}
+
+
+
+
+
+
+@media (max-width: 1250px){
+    #bashsh{
+	    width: 500px;
+	    height: 500px;
+    }
+}
+
+@media (max-width: 1118px){
+    #bashsh{
+	    width: 450px;
+	    height: 450px;
+    }
+    #id2{
+	    width: 60%;
+    }
+    #id1{
+	    width: 350px;
+	    height: 350px;
+    }
+}
+
+@media (max-width: 1070px){
+    #id2{
+	    width: 50%;
+    }
+    #bash1{
+    	width: 40%;
+    }
+}
+
+@media (max-width: 865px){
+	#bashsh{
+	    width: 400px;
+	    height: 400px;
+    }
+	#id1{
+	    width: 300px;
+	    height: 300px;
+    }
+}
+
+@media (max-width: 768px){
+	#bashsh{
+	    width: 350px;
+	    height: 350px;
+    }
+	#id1{
+	    width: 250px;
+	    height: 250px;
+    }
+}
+
+@media (max-width: 685px){
+	#bashsh{
+	    width: 450px;
+	    height: 450px;
+    }
+	#id1{
+	    width: 350px;
+	    height: 350px;
+    }
+    #id2{
+	    width: 100%;
+    }
+    #bash1{
+    	width: 100%;
+    }
+}
+
+@media (max-width: 460px){
+	#bashsh{
+	    width: 400px;
+	    height: 400px;
+    }
+}
+
+@media (max-width: 400px){
+	#bashsh{
+	    width: 350px;
+	    height: 350px;
+    }
+}
